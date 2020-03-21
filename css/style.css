@@ -8,69 +8,39 @@ text-align: center
 }
 
 h2 {
-Positon: relative;
-text-align: center;
-color: #cf9700;
-text-decoration: underline;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5vh;
+    margin-top:5vh;
 }
-.center {
-margin: auto;
-width: 70%;
-}
+.about-container
+    {
+background-color: #d4d4d4;
+font-size: 3vh}
 
-.desc {
-width: 30%;
-height: auto;
-display: block;
+.contact-container{
+    width: 80vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background: #d4d4d4;
 }
-.topnav {
-background-color: white;
-overflow: hidden;
+p {
+    text-align: center;
 }
-.topnav a {
-float: left;
-color: #cf9700;
-text-align: center;
-padding: 20px 25px;
-text-decoration: none;
-font-size: 17px;
+.gallery-containter{
+   width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background: #d4d4d4; 
 }
-
-.topnav a:hover {
-background-color: #cf9700;
-color: white;
-}
-.topnav a.active {
-background-color: #cf9700;
-color: white;
-}
-
-h4 {
-float:right;
-font: helvetica Neue;
-color: #cf9700;
-font-size: 100%;
-}
-
-.column {
-float: left;
-width: 25%;
-}
-
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-
-
 div.gallery {
 margin: 20px;
-border: 3px solid #cf9700;
+border: 3px solid #d4d4d4;
 width: 40%;
 display: inline-block;
 }
-
 div.gallery:hover {
 border: 5px solid #cf9700;
 }
@@ -83,82 +53,8 @@ height: auto;
 div.desc {
 padding: 15px;
 }
-
-column1 {
-padding: 5px;
-float: right;
-}
-
-input[type=text], select, textarea {
-width: 400Px;
-padding: 1%;
-border-radius: 4px;
-margin-top: 5px;
-margin-bottom: 20px;
-resize: vertical;
-}
-
-input[type=text], select, textarea{
-width: 100%;
-padding: 12px;
-border: 1px solid #cf9700;
-border-radius: 4px;
-box-sizing: border-box;
-resize: vertical;
-}
-
-label {
-padding: 12px 12px 12px 0;
-display: inline-block;
-}
-
-input[type=submit] {
-background-color: #cf9700;
-color: white;
-padding: 12px 20px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-float: right;
-}
-
-[type=submit]:hover{
-background-color: white;
-color: #cf9700;
-}
-.container {
-border-radius: 5px;
-background-color: #D3D3D3;
-padding: 20px;
-}
-
-.col-25 {
-float: left;
-width: 25%;
-margin-top: 6px;
-}
-
-.col-75 {
-float: left;
-width: 75%;
-margin-top: 6px;
-}
-
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-.btn {
-background-color: #cf9700;
-color: white;
-padding: 12px 20px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-}
-
-.btn:hover {
-background-color: White;
-color: #cf9700;
+.me {
+    height:45vh;
+    width: auto;
+    padding-left: 10vh;
 }
