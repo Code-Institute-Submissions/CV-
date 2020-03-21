@@ -26,13 +26,14 @@ margin-bottom: 11%;
 .contact-container{
     width: 80vh;
     text-align: center;
-    margin: 0 auto 5vh;
+    margin: 0 auto 5%;
     padding: 20px;
     background: #d4d4d4;
 }
 p {
     text-align: center;
-    margin-left: 15%;
+    margin: 2% 0 2% 10%;
+    width:80%;
 }
 .gallery-containter{
    width: 100%;
