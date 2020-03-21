@@ -13,10 +13,12 @@ h2 {
     margin-bottom: 5vh;
     margin-top:5vh;
 }
-.about-container
-    {
+
+.about-container {
 background-color: #d4d4d4;
-font-size: 3vh}
+font-size: 3vh;
+margin: 11vh;
+}
 
 .contact-container{
     width: 80vh;
@@ -54,7 +56,28 @@ div.desc {
 padding: 15px;
 }
 .me {
-    height:45vh;
+    height:50vh;
     width: auto;
-    padding-left: 10vh;
+    float:left;
+    margin: 0 -13px}
 }
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+img {
+    height: 5vh;
+    width: auto;
+    margin:10vh;
+    text-align: center;
+}
+
+footer {
+    background-color: #d4d4d4;
+
+}
+
+
