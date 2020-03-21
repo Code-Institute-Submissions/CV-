@@ -1,5 +1,7 @@
 Body{
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+height:100%;
+width: auto;
 }
 h1 {
 font: helvetica;
@@ -18,17 +20,19 @@ h2 {
 background-color: #d4d4d4;
 font-size: 3vh;
 margin: 11vh;
+margin-bottom: 11%;
 }
 
 .contact-container{
     width: 80vh;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 5vh;
     padding: 20px;
     background: #d4d4d4;
 }
 p {
     text-align: center;
+    margin-left: 15%;
 }
 .gallery-containter{
    width: 100%;
@@ -60,23 +64,21 @@ padding: 15px;
     width: auto;
     float:left;
     margin: 0 -13px}
-}
 
 .center {
-  margin: 0 auto;
-  width: 50%;
-  padding: 10px;
+    margin: auto;
+    width: 70%;
+    padding: 10px 10px 10px;
 }
-
 .social{
-    height: 5vh;
-    width: auto;
-    margin:10vh;
+    height: 10vh;
+    width: 10vh;
+    margin:0 0 50px 25vh;
 }
 
 footer {
     background-color: #d4d4d4;
-
 }
+
 
 
