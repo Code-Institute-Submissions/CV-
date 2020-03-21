@@ -15,4 +15,9 @@ I wanted to view this document as something that I can develop and use in the fu
 
 I used some bootstrap in the desgin to give it a more responsive design and layout. I then adopted these css inputs with my own colour and positioning using my css files. 
 
+The design of the webiste is very clear. Everything is labeled correctly easy to see, and I believe that things pop off the page in a way that will draw your eye to certain parts of the documentation.
+
+I did many tests on this webiste, especially trying to break it and I contanstly used the python3 -m https.server port to view the code and how it was working. 
+
 Overall I am very happy with the result of this website and cannot wait to develop this further. 
+
