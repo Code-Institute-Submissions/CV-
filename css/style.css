@@ -1,12 +1,12 @@
 Body{
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-height:100%;
-width: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height:100%;
+    width: auto;
 }
 h1 {
-font: helvetica;
-font-size: 4vw;
-text-align: center
+    font: helvetica;
+    font-size: 4vw;
+    text-align: center
 }
 
 h2 {
@@ -17,10 +17,25 @@ h2 {
 }
 
 .about-container {
-background-color: #d4d4d4;
-font-size: 3vh;
-margin: 11vh;
-margin-bottom: 11%;
+    background-color: #c9c9c9;
+    font-size: 3vh;
+    margin: 11vh;
+    margin-bottom: 11%;
+    padding: 1%;
+}
+
+.qual-container{
+    background-color: #c9c9c9;
+    font-size: 3vh;
+    margin: 11vh;
+    margin-bottom: 11%;
+}
+
+.exp-container{
+    background-color: #c9c9c9;
+    font-size: 3vh;
+    margin: 11vh;
+    margin-bottom: 11%;
 }
 
 .contact-container{
@@ -28,7 +43,7 @@ margin-bottom: 11%;
     text-align: center;
     margin: 0 auto 5%;
     padding: 20px;
-    background: #d4d4d4;
+    background: #c9c9c9;
 }
 p {
     text-align: center;
@@ -40,16 +55,17 @@ p {
     text-align: center;
     margin: 0 auto;
     padding: 20px;
-    background: #d4d4d4; 
+    background: #c9c9c9;
+    padding-bottom:5%;
 }
 div.gallery {
 margin: 20px;
-border: 3px solid #d4d4d4;
+border: 3px solid #c9c9c9;
 width: 40%;
 display: inline-block;
 }
 div.gallery:hover {
-border: 5px solid #cf9700;
+border: 5px solid #d4d4d4;
 }
 
 div.gallery img {
@@ -68,17 +84,17 @@ padding: 15px;
 
 .center {
     margin: auto;
-    width: 70%;
-    padding: 10px 10px 10px;
+    width: 100%;
+    padding: 5px 0 45px 30%;
 }
 .social{
     height: 10vh;
     width: 10vh;
-    margin:0 0 50px 25vh;
+    margin: 0 15% 10px 10px;
 }
 
 footer {
-    background-color: #d4d4d4;
+    background-color: #c9c9c9;
 }
 
 
